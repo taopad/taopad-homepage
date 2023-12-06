@@ -12,7 +12,7 @@ export default function Home() {
             <div className="relative w-48 h-16">
                 <Image src="/TaoPadLogo-NoBG.png" alt="TaoPad" fill sizes="1" style={{ objectFit: "contain" }} />
             </div>
-            <p>
+            <p className="text-center">
                 Earn $wTao while expanding The Tao Ecosystem
             </p>
             <div className="flex gap-4">
