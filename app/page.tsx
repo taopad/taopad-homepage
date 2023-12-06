@@ -13,7 +13,7 @@ export default function Home() {
                 <Image src="/TaoPadLogo-NoBG.png" alt="TaoPad" fill sizes="1" style={{ objectFit: "contain" }} />
             </div>
             <div>
-                <Link href={appLink} target="_blank">Earn $TAO</Link>
+                <Link href={appLink} target="_blank">Earn $wTAO</Link>
             </div>
             <div>
                 <Link href={docLink} target="_blank">Documentation</Link>
