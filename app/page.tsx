@@ -2,7 +2,7 @@ import Link from "next/link"
 import Image from "next/image";
 
 const appLink = "https://earn.taopad.app"
-const docLink = ""
+const docLink = "https://docs.taopad.app"
 const twitterLink = "https://twitter.com/TaoPadApp"
 const telegramLink = "https://t.me/taopadportal"
 
@@ -12,11 +12,12 @@ export default function Home() {
             <div className="relative w-48 h-16">
                 <Image src="/TaoPadLogo-NoBG.png" alt="TaoPad" fill sizes="1" style={{ objectFit: "contain" }} />
             </div>
-            <div>
-                <Link href={appLink} target="_blank">Earn $wTAO</Link>
-            </div>
-            <div>
-                <Link href={docLink} target="_blank">Documentation</Link>
+            <p>
+                Earn $wTao while expanding The Tao Ecosystem
+            </p>
+            <div className="flex gap-4">
+                <Link href={appLink} target="_blank" className="block border px-5 py-2">App</Link>
+                <Link href={docLink} target="_blank" className="block border px-5 py-2">Doc</Link>
             </div>
             <div className="flex gap-8">
                 <Link href={twitterLink} target="_blank">
