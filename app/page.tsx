@@ -16,8 +16,8 @@ export default function Home() {
                 Earn $wTao while expanding The Tao Ecosystem
             </p>
             <div className="flex gap-4">
-                <Link href={appLink} target="_blank" className="block border px-5 py-2">App</Link>
-                <Link href={docLink} target="_blank" className="block border px-5 py-2">Doc</Link>
+                <Link href={appLink} target="_blank" className="block border px-5 py-2 w-24 text-center">App</Link>
+                <Link href={docLink} target="_blank" className="block border px-5 py-2 w-24 text-center">Docs</Link>
             </div>
             <div className="flex gap-8">
                 <Link href={twitterLink} target="_blank">
